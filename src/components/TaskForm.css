@@ -1,0 +1,75 @@
+.form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+}
+
+.form-box {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: #1f1f1f;
+}
+
+
+.form-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 5px;
+    border: 1px solid #A1A1A1;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+}
+
+.form-input::placeholder {
+    color: #aaa;
+}
+
+.form-helper {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+.save-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.save-button:hover {
+    background-color: #218838;
+}
+
+.save-icon::before {
+    content: "💾";
+    font-size: 16px;
+}
